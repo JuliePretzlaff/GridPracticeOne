@@ -1,21 +1,64 @@
 ﻿.container {
     display: grid;
-    grid-gap: 15px 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 100px repeat(2, 200px) 100px;
     margin: 2rem auto;
     max-width: 1000px;
     width: 90%;
-    border: 10px, black;
+    border-style: solid;
+    border-color: grey;
 }
+
 
 .grid-item-1 {
     grid-column-start:1;
     grid-column-end:-1;
     text-indent: 20px;
-    //vertical-align: -100x;
-    background-color: dodgerblue;
+    background-color: cornflowerblue;
     color: white;
     font-weight:bold;
-    
+    font: consolas;
+    vertical-align: middle;
+}
+
+.grid-item-2 {
+    grid-column: 3/span 4;
+    background-color: chartreuse;
+    color: white;
+    font-weight: bold;
+    font: consolas;
+}
+.grid-item-3 {
+    grid-column: 7/span 2;
+    background-color: darkorchid;
+    color: white;
+    font-weight: bold;
+    font: consolas;
+    //align-content: center;
+}
+.grid-item-4 {
+    grid-column: 3/span 3;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font: consolas;
+    //align-content: center;
+}
+.grid-item-5 {
+    grid-column: 6/span 3;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font: consolas;
+    //align-content: center;
+}
+.grid-item-6 {
+    grid-column: 1/span 10;
+    background-color: darkblue;
+    text-indent: 20px;
+    color: white;
+    font-weight: bold;
+    font: consolas;
+    //align-content: center;
 }
