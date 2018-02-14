@@ -14,51 +14,41 @@
 .grid-item-1 {
     grid-column-start:1;
     grid-column-end:-1;
-    text-indent: 20px;
     background-color: cornflowerblue;
-    color: white;
-    font-weight:bold;
-    font: consolas;
-    vertical-align: middle;
 }
 
 .grid-item-2 {
     grid-column: 3/span 4;
     background-color: chartreuse;
-    color: white;
-    font-weight: bold;
-    font: consolas;
 }
+
 .grid-item-3 {
     grid-column: 7/span 2;
     background-color: darkorchid;
-    color: white;
-    font-weight: bold;
-    font: consolas;
-    //align-content: center;
 }
+
 .grid-item-4 {
     grid-column: 3/span 3;
     background-color: orange;
-    color: white;
-    font-weight: bold;
-    font: consolas;
-    //align-content: center;
 }
+
 .grid-item-5 {
     grid-column: 6/span 3;
     background-color: orange;
-    color: white;
-    font-weight: bold;
-    font: consolas;
-    //align-content: center;
 }
+
 .grid-item-6 {
     grid-column: 1/span 10;
     background-color: darkblue;
-    text-indent: 20px;
+}
+
+p.center {
+    text-align: center;
+    margin-top:25%;
+}
+
+p {
+    margin-left: 15px;
     color: white;
-    font-weight: bold;
-    font: consolas;
-    //align-content: center;
+    font-size: 30px;
 }
